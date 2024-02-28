@@ -87,7 +87,6 @@ namespace ola
         {
             int edad = fechaActual.Year - fechaNacimiento.Year;
 
-            // Restar un año si aún no ha pasado el día del cumpleaños
             if (fechaNacimiento.Date > fechaActual.AddYears(-edad))
             {
                 edad--;
