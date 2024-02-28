@@ -52,6 +52,7 @@
     <Compile Include="..\..\waaaaaa.Designer.cs">
       <DependentUpon>waaaaaa.cs</DependentUpon>
     </Compile>
+    <Compile Include="Data\Entities\Student.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="..\..\waaaaaa.resx">
